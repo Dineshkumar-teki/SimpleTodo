@@ -1,0 +1,27 @@
+/* Write your CSS here */
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 1px solid #ffc2a0;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+li:last-child {
+  margin-bottom: 0;
+}
+p {
+  color: #000000;
+  font-size: 1.5rem;
+  align-self: center;
+}
+button {
+  color: #ff0b37;
+  border: 1px solid #ff0b37;
+  padding: 10px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  font-size: 1rem;
+  background-color: transparent;
+}
