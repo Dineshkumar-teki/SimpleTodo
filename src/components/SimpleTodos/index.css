@@ -1,10 +1,4 @@
 /* Write your CSS here */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Roboto;
-}
 .bgContainer {
   background-color: #ffc2a0;
   min-height: 100vh;
@@ -24,5 +18,35 @@
   color: #ff8542;
   font-size: 48px;
   text-align: center;
-  margin: 0 0 4rem 0;
+  margin-bottom: 2rem;
+}
+.addTodoSection > input {
+  width: 60%;
+  font-size: 1.2rem;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #ff8542;
+}
+.addBtn {
+  padding: 0.8rem 25px;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 600;
+  border: 1px solid #ff0b37;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  background-color: #ff8542;
+  transition: 0.5s;
+}
+.addBtn:hover {
+  background-color: #ff0b37;
+}
+.addTodoSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
 }

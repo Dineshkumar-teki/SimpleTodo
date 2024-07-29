@@ -14,6 +14,8 @@ p {
   color: #000000;
   font-size: 1.5rem;
   align-self: center;
+  text-decoration: none;
+  transition: 1s;
 }
 button {
   color: #ff0b37;
@@ -24,4 +26,28 @@ button {
   outline: none;
   font-size: 1rem;
   background-color: transparent;
+}
+.eachTodo {
+  display: flex;
+  gap: 0.5rem;
+}
+.eachTodo > .checked {
+  text-decoration: line-through;
+}
+.btnContainer {
+  display: flex;
+  gap: 1rem;
+}
+.editTodoItem {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.editTodoItem > input {
+  width: 80%;
+  font-size: 1.2rem;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #ff8542;
 }
