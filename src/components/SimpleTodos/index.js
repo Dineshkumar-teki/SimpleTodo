@@ -79,7 +79,7 @@ class SimpleTodo extends Component {
       while (i <= lastEle) {
         const newTodo = {
           id: i + todoList.length,
-          title: newInputValue.join(''),
+          title: newInputValue.join(' '),
         }
         this.setState(prevState => ({
           todoList: [...prevState.todoList, newTodo],
